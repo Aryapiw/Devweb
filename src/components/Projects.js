@@ -1,10 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import modelconfusionmatrix from "/Users/simar/Documents/projectportfolio/src/assets/img/confusion_matrix.png";
-import webapppic from "/Users/simar/Documents/projectportfolio/src/assets/img/web_app_pic.png"
-import couponmatrix from "/Users/simar/Documents/projectportfolio/src/assets/img/coupon_confusion_matrix.png"
-import ttd from "/Users/simar/Documents/projectportfolio/src/assets/img/ttd_pic.png"
-import websitepic from "/Users/simar/Documents/projectportfolio/src/assets/img/websitepic.png"
+import modelconfusionmatrix from "../assets/img/confusion_matrix.png";
+import webapppic from "../assets/img/web_app_pic.png"
+import couponmatrix from "../assets/img/coupon_confusion_matrix.png"
+import ttd from "../assets/img/ttd_pic.png"
+import websitepic from "../assets/img/websitepic.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
