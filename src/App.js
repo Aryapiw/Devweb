@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../assets/img/spaceguy.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -11,6 +11,10 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello from V2</h1>
+      </header>
       <NavBar />
       <Banner />
       <Skills />
