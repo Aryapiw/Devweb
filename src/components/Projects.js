@@ -6,6 +6,7 @@ import couponmatrix from "../assets/img/coupon_confusion_matrix.png"
 import ttd from "../assets/img/ttd_pic.png"
 import websitepic from "../assets/img/websitepic.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import tableau from "/Users/simar/Documents/projectportfolio/src/assets/img/tableau.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -23,6 +24,12 @@ export const Projects = () => {
       description: "Web Application for ease of model inference. Permits uploads of images, videos, live-webcam footage, youtube videos, and rtsp.",
       imgUrl: webapppic,
       link: "https://pepperss.streamlit.app/"
+    },
+    {
+      title: "Swing State Flip Prediction",
+      description: "Predictive modeling to guess what party certain swing states would vote for (Red or Blue) by looking at 2020 election data, demographics data, voter turnout data, sentiment data, and campaign spending data, and the differences in each between 2020 and 2024",
+      imgUrl: tableau,
+      link: "https://github.com/Simar0108/SwingStateFlipPrediction"
     },
     {
       title: "Coupon Prediction Model",

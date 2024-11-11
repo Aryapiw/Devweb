@@ -22,9 +22,11 @@ export const Skills = () => {
     }
   };
 
-  const languages = ['Python', 'C++', 'JavaScript', 'SQL', 'R', 'HTML', 'CSS'];
-  const softwaresFrameworks = ['Git', 'Heroku', 'AWS', 'Azure', 'Tableau', 'React', 'Django', 'PyTorch', 'TensorFlow', 'CI/CD', 'Jupyter Notebooks', 'Google Colab', 'Node.js'];
-  const dataAnalysis = ["Pandas", "NumPy", "Matplotlib", "Sklearn", "Seaborn"];
+  const languages = ['Python', 'C++', 'JavaScript', 'SQL/Postgres', 'R', 'HTML', 'CSS'];
+  const Frameworks_Libraries = ['TensorFlow', 'PyTorch', 'Scikit-learn', 'OpenCV', 'React', 'Flask', 'Django'];
+  const Platforms_Technologies = ['Google Cloud Platform', 'Azure', 'AWS', 'Docker', 'Kubernetes', 'Git', 'MLOps'];
+  const dataAnalysis_modeling = ['Tableau', 'MongoDB', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'];
+  const additional = ['Computer Vision', 'Predictive Modeling', 'Deep Learning', 'Feature Engineering', 'Visualization', 'Communication'];
 
   const SkillsCarousel = ({ items }) => (
     <Carousel responsive={responsive} infinite className="owl-carousel owl-theme skill-slider">
@@ -50,12 +52,20 @@ return (
                     </div>
                     <div>
                       <h3 className="carousel-title">Softwares/Frameworks</h3>
-                      <SkillsCarousel items={softwaresFrameworks} />
+                      <SkillsCarousel items={Frameworks_Libraries} />
                     </div>
                     <div>
-                      <h3 className="carousel-title">Data Analysis</h3>
-                      <SkillsCarousel items={dataAnalysis} />
-                </div>
+                      <h3 className="carousel-title">Platforms/Technologies</h3>
+                      <SkillsCarousel items={Platforms_Technologies} />
+                    </div>
+                    <div>
+                      <h3 className="carousel-title">Data Analysis/Modeling</h3>
+                      <SkillsCarousel items={dataAnalysis_modeling} />
+                    </div>  
+                    <div>
+                      <h3 className="carousel-title">Additional</h3>
+                      <SkillsCarousel items={additional} />
+                    </div>
               </div>
             </div>
         </div>

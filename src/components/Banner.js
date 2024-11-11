@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Simar`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Scientist", "<ML Engineer>", "AI Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a 3rd year (BS) Data Science student at the University of California, Riverside. I am currently looking for Summer 2024 Internship opportunities where I can challenge myself with real-world contributions and learn from true professionals!</p>
+                  <p>I am a 4th year (BS) Data Science student at the University of California, Riverside graduating this April. I am currently looking for New Grad opportunities where I can challenge myself with real-world contributions and learn from true professionals!</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
