@@ -6,7 +6,7 @@ import couponmatrix from "../assets/img/coupon_confusion_matrix.png"
 import ttd from "../assets/img/ttd_pic.png"
 import websitepic from "../assets/img/websitepic.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import tableau from "/Users/simar/Documents/projectportfolio/src/assets/img/tableau.png"
+import tableau from "../assets/img/tableau.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
